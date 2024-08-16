@@ -9,9 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>プラセル</p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          <Hashimoto />
-        </a>
+        <Hashimoto />
       </header>
     </div>
   )
