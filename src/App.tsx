@@ -3,7 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 import Hashimoto from './Hashimoto'
 import LoginPage from './components/pages/LoginPage'
-import TopPage from './TopPage'
+import TopPage from './components/pages/TopPage'
 
 function App() {
   return (
