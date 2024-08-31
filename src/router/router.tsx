@@ -6,6 +6,8 @@ import TopPage from "../components/pages/TopPage";
 import Hyou from "../components/partsGroups/Timetable";
 import Event from "../components/pages/desktop4";
 import Edit from "../components/pages/desktop7";
+import { Alert } from "@chakra-ui/react";
+import Desktop11 from "../components/pages/Desktop11";
 
 export const Router =()=>{
     return(
@@ -17,6 +19,8 @@ export const Router =()=>{
         <Route path ="/plan" element={<Hyou />} />
         <Route path ="/event" element={<Event />} />
         <Route path ="/edit" element={<Edit />} />
+        <Route path ="/alert" element={<Alert />} />
+        <Route path ="/11" element={<Desktop11 />} />
     </Routes>
     )
 }
