@@ -3,6 +3,9 @@ import LoginPage from "../components/pages/LoginPage";
 import RegisterPage from "../components/pages/RegisterPage";
 import TopPage from "../components/pages/TopPage";
 import Hyou from "../components/pages/desktop9";
+import Event from "../components/pages/desktop4";
+import Edit from "../components/pages/desktop7";
+import { Alert } from "@chakra-ui/react";
 
 export const Router =()=>{
     return(
@@ -11,6 +14,9 @@ export const Router =()=>{
         <Route path ="/login" element={<LoginPage />} />
         <Route path ="/register" element={<RegisterPage />} />
         <Route path ="/plan" element={<Hyou />} />
+        <Route path ="/event" element={<Event />} />
+        <Route path ="/edit" element={<Edit />} />
+        <Route path ="/alert" element={<Alert />} />
     </Routes>
     )
 }

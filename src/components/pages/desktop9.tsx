@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Center, Grid, GridItem, Button, IconButton } from '@chakra-ui/react';
 import { ArrowBackIcon } from '@chakra-ui/icons';
+import { FaHome } from 'react-icons/fa';
 
 const Hyou = () => {
     const dates = ['8/14', '8/15', '8/16', '8/17', '8/18'];
@@ -26,7 +27,7 @@ const Hyou = () => {
             {/* ホームボタン */}
             <IconButton 
                 aria-label="Home"
-                icon={<ArrowBackIcon />} 
+                icon={<FaHome/>} 
                 position="absolute" 
                 top="1rem" 
                 left="1rem"
